@@ -7,11 +7,6 @@ function mostrar()
 
 	if(edad>=18)
 	{
-		console.log("es mayor de edad");
-	}else if (edad<18)&&(edad>0)
-			{
-				console.log("es menor de edad");
-			}
-
-
+		alert("es mayor de edad");
+	}
 }//FIN DE LA FUNCIÓN
