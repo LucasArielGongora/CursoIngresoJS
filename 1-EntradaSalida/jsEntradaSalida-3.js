@@ -1,8 +1,15 @@
-/*Debemos lograr tomar un dato por 'ID'
-y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
+/*Pedir al usuario los siguientes datos:
+nombreDelAlumno: por  id.value
+edadDelAlumno: por prompt
+Mostrar por alert el mensaje "Ud  se llama ... y tiene ... años"
+*/
 function mostrar()
 {
-	
-}
+ 	let nombre;
+    
+    nombre=document.getElementById("elNombre").value;
 
+    alert(nombre);
 
+    document.getElementById("elNombre").value "";
+}   

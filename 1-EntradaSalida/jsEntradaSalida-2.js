@@ -2,6 +2,10 @@
 y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
+	let nombre
 	
+	nombre = prompt("Ingrese su nombre:");
+
+	alert("a ingresado " +nombre);
 }
 
