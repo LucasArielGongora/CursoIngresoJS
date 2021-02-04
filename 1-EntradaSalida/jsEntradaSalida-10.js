@@ -9,9 +9,13 @@ function mostrarAumento()
 	
 	importe=document.getElementById("importe").value;
 
-	importe=parseInt(importe);
+	importe=parsefloat(importe);
 
-	Descuento=importe*75/100;
+	//Descuento=importe*75/100;
+
+	//Descuento = importe*0.75;
+
+	Descuento = importe / 0.75*100
 
 	document.getElementById("resultado").value=Descuento;
 }
