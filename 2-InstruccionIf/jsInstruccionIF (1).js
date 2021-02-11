@@ -7,7 +7,8 @@ function mostrar()
 	if(SuEdad=15)
 	{
 		alert("Niña bonita");
-	}else{
+	}else
+		{
 			alert("intente otra vez");
 		}
 	

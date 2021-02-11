@@ -6,16 +6,17 @@ function mostrarAumento()
 {
 	var importe;
 	var Descuento;
+	var valorDescuento;
 	
 	importe=document.getElementById("importe").value;
 
-	importe=parsefloat(importe);
+	importe=parseInt(importe);
 
 	//Descuento=importe*75/100;
 
 	//Descuento = importe*0.75;
 
-	Descuento = importe / 0.75*100
+	valorDescuento = importe * 0.75
 
-	document.getElementById("resultado").value=Descuento;
+	document.getElementById("resultado").value=valorDescuento;
 }
